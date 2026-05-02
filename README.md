@@ -4,6 +4,7 @@ Creator Circle is a full-stack crowdfunding platform that enables creators to re
 
 It was built to provide a simple and scalable way for independent creators to monetize their content and build a community.
 
+---
 
 📌 Key Features
 
@@ -21,26 +22,26 @@ It was built to provide a simple and scalable way for independent creators to mo
 
 🛠️ Tech Stack
 
-Frontend:
+Frontend
 
 - Next.js 14
 - React 18
 - Tailwind CSS
 
-Backend:
+Backend
 
 - Next.js API Routes
 - Node.js
 
-Database:
+Database
 
 - MongoDB (Mongoose)
 
-Authentication:
+Authentication
 
 - NextAuth (GitHub OAuth)
 
-Payments:
+Payments
 
 - Razorpay API
 
@@ -49,13 +50,13 @@ Payments:
 📂 Project Structure
 
 creator-circle/
-│── app/                # App Router (pages & layouts)
-│── components/         # Reusable UI components
-│── models/             # Mongoose schemas
-│── db/                 # Database connection
-│── app/api/            # Backend API routes
-│── public/             # Static assets
-│── utils/              # Helper functions
+│── app/            # App Router (pages & layouts)
+│── components/     # Reusable UI components
+│── models/         # Mongoose schemas
+│── db/             # Database connection
+│── app/api/        # Backend API routes
+│── public/         # Static assets
+│── utils/          # Helper functions
 
 ---
 
@@ -72,7 +73,7 @@ npm install
 
 3. Setup Environment Variables
 
-Create ".env.local":
+Create a ".env.local" file:
 
 NEXT_PUBLIC_URL=http://localhost:3000
 GITHUB_ID=your_github_client_id
@@ -93,8 +94,8 @@ npm run dev
 2. Backend creates Razorpay order
 3. Razorpay checkout is triggered
 4. Payment is processed
-5. Signature verified on server
-6. Payment stored in MongoDB
+5. Signature is verified on the server
+6. Payment is stored in MongoDB
 7. Dashboard updates with supporter data
 
 ---
@@ -110,10 +111,12 @@ npm run dev
 
 🚀 Future Improvements
 
-- Email notifications for payments
-- Subscription-based memberships
-- Advanced analytics dashboard
-- Real-time updates
+- 📩 Email notifications for payments
+- 💰 Subscription-based memberships
+- 📈 Advanced analytics dashboard
+- 🔔 Real-time updates
+
+---
 
 
 
